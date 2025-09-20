@@ -25,6 +25,8 @@ dependencies {
 
     // WebDriverManager (новая версия)
     implementation("io.github.bonigarcia:webdrivermanager:5.9.2")
+
+    implementation("io.github.cdimascio:java-dotenv:5.2.2")
 }
 
 tasks.test {

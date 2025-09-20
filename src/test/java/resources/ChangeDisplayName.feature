@@ -12,4 +12,4 @@ Feature: Changing data on Stack Overflow profile
 
     Examples:
       | email     | password           | display_name  |
-      | ${EMAIL}  |   ${PASSWORD}      | kirirut2      |
+      |  |       |       |
