@@ -38,7 +38,7 @@ public class ProfilePO extends Driver {
         displayNameFld.sendKeys(argDisplay_name);
     }
     public void saveChanges(){
-        wait.until(ExpectedConditions.elementToBeClickable(saveChangesBtn)).click();
+        saveChangesBtn.click();
     }
 
 }
