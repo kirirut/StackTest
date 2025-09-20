@@ -11,5 +11,5 @@ Feature: Changing data on Stack Overflow profile
 
 
     Examples:
-      | email                  | password           | display_name  |
-      |   |         | kirirut2      |
+      | email     | password           | display_name  |
+      | ${EMAIL}  |   ${PASSWORD}      | kirirut2      |
